@@ -10,12 +10,16 @@ html {
   color: #113c00;
 }
 
-a {
-  color: #568c36;
+li {
   text-decoration: none;
 }
 
-a:hover {
+a {
+  color: #568c36;
+}
+
+a:hover,
+a:focus {
   color: #113c00;
 }
 
@@ -44,7 +48,8 @@ a:hover {
   text-decoration: none;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a:focus {
   background-color: #fff;
   color: #113c00;
 }
